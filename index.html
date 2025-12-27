@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify UI Clone</title>
+
+    <link rel="icon" href="images/spotify-1759471_1280.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">
+            <img src="images/spotify-1759471_1280.jpg" alt="Spotify">
+            Spotify
+        </h2>
+        
+
+        <nav>
+            <a class="active"><i class="fa fa-house"></i> Home</a>
+            <a href="search.html"><i class="fa fa-search"></i> Search</a>
+            <a><i class="fa fa-book"></i> Your Library</a>
+        </nav>
+
+        <div class="playlist">
+            <p>PLAYLISTS</p>
+            <span>Liked Songs</span>
+            <span>My Playlist 1</span>
+            <span>My Playlist 2</span>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+        <h1>Good Morning</h1>
+
+        <!-- Albums -->
+        <div class="albums">
+
+            <a href="arrahman.html" class="album-card">
+                <img src="images/Screenshot 2025-12-26 114528.png" alt="A R Rahman">
+                <h4>A R Rahman Hits</h4>
+                <p>Tamil Classics</p>
+            </a>
+
+            <a href="yuvan.html" class="album-card">
+                <img src="images/Screenshot 2025-12-26 115113.png" alt="Yuvan">
+                <h4>Yuvan Shankar Raja</h4>
+                <p>Melodies</p>
+            </a>
+
+            <a href="harris.html" class="album-card">
+                <img src="images/Screenshot 2025-12-26 115541.png" alt="Harris">
+                <h4>Harris Jayaraj</h4>
+                <p>Romantic & Mass</p>
+            </a>
+
+        </div>
+    </main>
+</div>
+
+<footer class="player">
+
+    <!-- Left: Song info -->
+    <div class="song">
+        <img src="images/Screenshot 2025-12-26 114528.png" alt="Song">
+        <div>
+            <h5>Pachai Kiligal Tholodu</h5>
+            <p>A R Rahman</p>
+        </div>
+    </div>
+
+    <!-- Center: Play button -->
+    <div class="player-center">
+        <audio controls>
+            <source src="songs\Pachai_Kiligal_K_J_Yesudas.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Right: Empty (for spacing like Spotify) -->
+    <div class="player-right"></div>
+
+</footer>
+
+
+</body>
+</html>
